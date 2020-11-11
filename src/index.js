@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+// import BlogApp from './Blog/App';
+import DumperApp from './components/Dumper/App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<DumperApp />, document.getElementById('root'));
