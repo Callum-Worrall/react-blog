@@ -15,6 +15,7 @@ const NavBar = () => {
     return (
         <div style={divStyle}>
             <Link style={linkStyle} to='/'>Home</Link>
+            <Link style={linkStyle} to='/dumps/new'>Take a Dump!</Link>
         </div>
     )
 }
