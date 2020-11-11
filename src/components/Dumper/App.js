@@ -22,7 +22,7 @@ const DumperApp = () => {
   }
   
   const nextId = () => {
-    return dumps.reduce((acc, cur) => acc._id > cur._id? acc : cur, {_id: 0})._id + 1
+    return dumps.reduce((acc, cur) => acc._id > cur._id ? acc : cur, {_id: 0})._id + 1
   }
 
   //Add

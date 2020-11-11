@@ -1,6 +1,7 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 
 const NewDump = ({history, addDump, nextId}) => {
+  
     const divStyles = {
         display: "grid",
         width: "100vw"
@@ -9,9 +10,11 @@ const NewDump = ({history, addDump, nextId}) => {
         width: "70vw",
         margin: ".5em"
     }
+
     const labelStyles = {
         fontSize: "1.2em"
     }
+
     const textAreaStyles = {
         height: "200px",
         margin: ".5em",
