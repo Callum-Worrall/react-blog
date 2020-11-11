@@ -1,4 +1,4 @@
-export default [
+var post_data = [
   {
       _id: 1,
       title: "React is the best",
@@ -40,3 +40,5 @@ export default [
           "Who doesn't love pizza? I found the best pizza in town yesterday and I'm so excited about it!"
   }
  ]
+
+ export default post_data;
